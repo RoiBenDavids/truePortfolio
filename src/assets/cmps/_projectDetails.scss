@@ -1,0 +1,33 @@
+.projects-detail{
+    // position: relative;
+    // h1{
+    //     position: absolute;
+    //     top: 80px;
+    // }
+}
+.proj-details-list{
+    align-items: center;
+    justify-items: center;
+    li{
+        padding: 20px;
+        height: 100%;
+        position: relative;
+        img{
+            width: 100%;
+            object-fit: cover;
+            object-position: top;
+        }
+    }
+    li:nth-child(2){
+        >*{
+            width: 100%;
+        }
+    }
+    // .title {
+    //     width: 100%;
+    // }
+    h4{
+        margin-left: 10px;
+    }
+    
+}

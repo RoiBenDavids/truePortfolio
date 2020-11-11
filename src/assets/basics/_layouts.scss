@@ -1,0 +1,13 @@
+.main-container {
+    height: fit-content;
+    display: grid;
+
+    > * {
+        grid-column: 2;
+
+        &.full {
+            grid-column: 1 /-1;
+        }
+    }
+  
+}

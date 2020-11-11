@@ -1,0 +1,48 @@
+
+.home{
+    position: relative;
+    >div{
+        overflow: hidden;
+    }
+    
+    .changer-container{
+        overflow: hidden;
+        height: 95px;
+        margin-top: 15px;
+        ul{
+            margin-right: 20px;
+            -webkit-animation-name: change;
+            -webkit-animation-duration: 4s;
+            -webkit-animation-iteration-count: infinite;
+            animation-name: change;
+            animation-duration: 6s;
+            animation-iteration-count: infinite;
+            li{
+                margin-bottom: 15px;
+            }
+        }
+    }
+    h3,i{
+        // color: #202020;
+        text-transform: uppercase;
+        
+        font-size: 80px;
+        line-height: 80px;
+        color: #f1ebe5;
+        // text-shadow: 0 13px 9px rgb(37, 37, 97),0 -2px 1px rgb(54, 54, 139);
+        letter-spacing: -4px;
+    }
+    i{
+        position: absolute;
+        // top: 150px;
+        // left: 900px;
+    }
+    @keyframes change {
+        10%, 90% {transform:translate3d(0,0,0);}
+        // 16.66%, 29.32% {transform:translate3d(0,-25%,0);}
+        // 33.32%,45.98% {transform:translate3d(0,-50%,0);}
+        40%,60% {transform:translate3d(0,-100%,0);}
+        // 66.64%,79.3% {transform:translate3d(0,-50%,0);}
+        // 83.3%,95.96% {transform:translate3d(0,-25%,0);}
+      }
+}

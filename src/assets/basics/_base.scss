@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: rem(16px);
+    margin: 0;
+    overflow: hidden;
+    font-family: Paytone;
+    height: 100vh;
+    background-image: url(../imgs/smoke.jpg);
+    background-size: cover;
+    color: #f1ebe5;
+    .app-main>*{
+        height: 100vh;
+    }
+}
+h1,h2,h3,h4,h5,h6,p,ul,li{
+    margin: 0;
+    padding: 0;
+    font-weight: unset;
+}
+h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+    
+}
+ul,li {
+    list-style: none;
+}
+
+button,a,input{
+    outline: none;
+}

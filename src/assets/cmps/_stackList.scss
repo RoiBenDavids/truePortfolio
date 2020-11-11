@@ -1,0 +1,53 @@
+.stack-img-list{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(5,1fr);
+    li{
+        padding: 20px;
+        opacity: 0.5;
+        animation: bling 7s ease-in-out infinite;
+        &:nth-of-type(2){
+            animation-delay: 1.5s;
+        }
+        &:nth-of-type(3){
+            animation-delay: 0.3s;
+        }
+        &:nth-of-type(4){
+            animation-delay: 4.5s;
+        }
+        &:nth-of-type(5){
+            animation-delay: 3s;
+        }
+        &:nth-of-type(6){
+            animation-delay: 2s;
+        }
+        &:nth-of-type(7){
+            animation-delay: 0.5s;
+        }
+        &:nth-of-type(8){
+            animation-delay: 3s;
+        }
+        &:nth-of-type(9){
+            animation-delay: 1.7s;
+        }
+        &:nth-of-type(10){
+            animation-delay: 3.7s;
+        }
+        @keyframes bling { 
+            20%{
+                opacity: 0.5;
+            }
+            50%{
+                opacity: 1;
+            }
+            80%{
+                opacity: 0.5;
+            }
+            
+        }
+    }
+    img{
+        width: 100%;
+       
+    }
+}

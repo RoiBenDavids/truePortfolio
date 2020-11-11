@@ -1,0 +1,27 @@
+//setup
+
+@import "basics/typography.scss";
+
+//basics
+@import "basics/helpers.scss";
+@import "basics/layouts.scss";
+@import "basics/links.scss";
+@import "basics/base.scss";
+@import "basics/buttons.scss";
+
+//pages
+@import "pages/home.scss";
+@import "pages/stack.scss";
+@import "pages/projects.scss";
+@import "pages/contacts.scss";
+
+//cmps
+@import "cmps/navbar.scss";
+@import "cmps/stackList.scss";
+@import "cmps/projectList.scss";
+@import "cmps/projectDetails.scss";
+@import "cmps/dataSlider.scss";
+
+// .app-main{
+//     width: 100vw;
+// }

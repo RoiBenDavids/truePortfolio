@@ -1,0 +1,23 @@
+.projects{
+    position: relative;
+    .header{
+        position: relative;
+        i{
+            position: absolute;
+            top: 23%;
+            font-size: 40px;
+            right: -120px;
+        }
+    }
+    >:nth-child(2){
+        width: 600px;
+        height: 500px;
+        display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    @media screen and (max-width:700px) {
+        width: 360px;
+    }
+    }
+}
